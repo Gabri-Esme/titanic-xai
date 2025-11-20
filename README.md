@@ -21,7 +21,7 @@ This project explores the Titanic dataset from Kaggle to predict passenger survi
         - Random Forest Classifier
         - LASSO Logistic Regression
         - Gradient Boosting Classifier
-    - Gradient Boosting achieved the highest accuracy (~ 0.77 on Kaggle test set).
+    - Gradient Boosting achieved the highest accuracy (0.8380 on training data).
 4. Feature Importance
     - Computed using:
         - Random Forest feature importance
