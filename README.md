@@ -9,7 +9,7 @@ This project explores the Titanic dataset from Kaggle to predict passenger survi
 
 1. Data Exploration
     - Investigated distributions, missing values, and feature relationships.
-    - Visualized correlations and basic statistics to inform preprocessing.
+    - Visualised correlations and basic statistics to inform preprocessing.
 2. Feature Engineering 
     - Extracted titles from passenger names (e.g., Mr, Mrs, Master).
     - Derived CabinLetter from the first letter of the cabin.
@@ -21,7 +21,7 @@ This project explores the Titanic dataset from Kaggle to predict passenger survi
         - Random Forest Classifier
         - LASSO Logistic Regression
         - Gradient Boosting Classifier
-    - Gradient Boosting achieved the highest accuracy (0.76076 on Kaggle test set).
+    - Gradient Boosting achieved the highest accuracy (~ 0.77 on Kaggle test set).
 4. Feature Importance
     - Computed using:
         - Random Forest feature importance
@@ -44,32 +44,32 @@ This project explores the Titanic dataset from Kaggle to predict passenger survi
 
 ---
 
-# Folder Structure
+# Folder Structure  
 
-titanic-causal-xai/
+titanic-causal-xai/  
 │
-├── README.md
-├── requirements.txt
-├── data/
-│   ├── raw/             # empty folder for original Kaggle dataset (not committed)
-│   ├── processed/       # empty folder for processed dataset
-│
-├── notebooks/
-│   ├── 01_exploration.ipynb
-│   ├── 02_preprocessing.ipynb
-│   ├── 03_feature_importance.ipynb
-│   ├── 04_baseline_models.ipynb
-│   └── 05_model_explainability.ipynb
-│
-├── src/
-│   ├── preprocessing_and_feature_engineering.py
-│   ├── modeling.py
-│   └── prediction.py
-│
-├── results/
-│   ├── figures/         # plots, DAG diagrams, SHAP plots (optional and not commited)
-│   └── model_outputs/   # predictions, metrics, serialized models
-└── .gitignore
+├── README.md  
+├── requirements.txt  
+├── data/  
+│   ├── raw/             # empty folder for original Kaggle dataset (not committed)  
+│   ├── processed/       # empty folder for processed dataset  
+│  
+├── notebooks/  
+│   ├── 01_exploration.ipynb  
+│   ├── 02_preprocessing.ipynb  
+│   ├── 03_feature_importance.ipynb  
+│   ├── 04_baseline_models.ipynb  
+│   └── 05_model_explainability.ipynb  
+│  
+├── src/  
+│   ├── preprocessing_and_feature_engineering.py  
+│   ├── modeling.py  
+│   └── prediction.py  
+│  
+├── results/  
+│   ├── figures/         # plots, DAG diagrams, SHAP plots (optional and not commited)  
+│   └── model_outputs/   # predictions, metrics, serialized models  
+└── .gitignore  
 
 ---
 
