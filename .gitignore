@@ -1,0 +1,42 @@
+# Environments
+env/
+venv/
+.ipynb_checkpoints/
+__pycache__/
+
+# Raw Kaggle Data and Processed CSVs
+*.csv
+processed/
+raw/
+
+# Model / ML artifacts
+*.joblib
+*.pkl
+*.ckpt
+*.weights
+*.hdf5
+logs/
+
+# Python bytecode
+*.pyc
+*.pyo
+*.pyd
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+*.swp
+*~
+
+# Logs / temp
+*.log
+*.out
+*.err
+
+# DS Store
+*DS_Store
